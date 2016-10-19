@@ -48,7 +48,7 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Overview</a></li>
-            <li><a href="addProject.html">项目</a></li>
+            <li><a href="#">项目</a></li>
             <li><a href="#">权限</a></li>
             <li><a href="#">角色</a></li>
             <li><a href="#">路由</a></li>
@@ -67,32 +67,64 @@
           </ul> -->
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">Dashboard</h1>
+          <h1 class="page-header">添加项目</h1>
 
-          <div class="row placeholders">
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
-            </div>
+          <div class="user-form">
+
+          <form id="w0" action="/project/create" method="post">
+          <!-- <input type="hidden" name="_csrf" value="S0VqNU1uMUcTBjhFNThXDwRoCHQJKmkzews5Yxo4dWobMiNtI0NLLQ=="> -->
+              <div class="form-group field-user-username required">
+              <label class="control-label" for="user-username">Username</label>
+              <input type="text" id="user-username" class="form-control" name="User[username]" maxlength="255">
+
+              <div class="help-block"></div>
+              </div>
+                  <div class="form-group field-user-auth_key required">
+              <label class="control-label" for="user-auth_key">Auth Key</label>
+              <input type="text" id="user-auth_key" class="form-control" name="User[auth_key]" maxlength="32">
+
+              <div class="help-block"></div>
+              </div>
+                  <div class="form-group field-user-token">
+              <label class="control-label" for="user-token">Token</label>
+              <input type="text" id="user-token" class="form-control" name="User[token]" maxlength="64">
+
+              <div class="help-block"></div>
+              </div>
+                  <div class="form-group field-user-access_token">
+              <label class="control-label" for="user-access_token">Access Token</label>
+              <input type="text" id="user-access_token" class="form-control" name="User[access_token]" maxlength="255">
+
+              <div class="help-block"></div>
+              </div>
+                  <div class="form-group field-user-password_hash required">
+              <label class="control-label" for="user-password_hash">Password Hash</label>
+              <input type="text" id="user-password_hash" class="form-control" name="User[password_hash]" maxlength="255">
+
+              <div class="help-block"></div>
+              </div>
+                  <div class="form-group field-user-password_reset_token">
+              <label class="control-label" for="user-password_reset_token">Password Reset Token</label>
+              <input type="text" id="user-password_reset_token" class="form-control" name="User[password_reset_token]" maxlength="255">
+
+              <div class="help-block"></div>
+              </div>
+                  <div class="form-group field-user-email required">
+              <label class="control-label" for="user-email">Email</label>
+              <input type="text" id="user-email" class="form-control" name="User[email]" maxlength="255">
+
+              
+              </div>
+            <!--   <div class="form-group">
+                <button type="submit" class="btn btn-success">Create</button> 
+              </div>
+ -->
+              <button type="submit" class="btn btn-primary">Create </button>
+
+          </form>
           </div>
 
-          <h2 class="sub-header">Section title</h2>
+         <!--  <h2 class="sub-header">Section title</h2>
           <div class="table-responsive">
             <table class="table table-striped">
               <thead>
@@ -219,7 +251,7 @@
                 </tr>
               </tbody>
             </table>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -231,9 +263,6 @@
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-    <script src="js/docs.min.js"></script>
-    
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
