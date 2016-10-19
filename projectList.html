@@ -47,7 +47,7 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Overview</a></li>
-            <li><a href="projectList.html">项目</a></li>
+            <li><a href="#">项目</a></li>
             <li><a href="#">权限</a></li>
             <li><a href="#">角色</a></li>
             <li><a href="#">路由</a></li>
@@ -65,41 +65,40 @@
             <li><a href="">Another nav item</a></li>
           </ul> -->
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">添加项目</h1>
-          <div class="user-form">
-          <form role="form">
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputFile">File input</label>
-                  <input type="file" id="exampleInputFile">
-                  <p class="help-block">Example block-level help text here.</p>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox"> Check me out
-                  </label>
-                </div>
-              <button type="submit" class="btn btn-primary">提交 </button>
-          </form>
-          </div>
+        <div class="content-wrapper">
+          <section class="content">
+            <div class="role-index">
+              <p><a class="btn btn-success" href="/admin/permission/create">新增权限</a></p>
+              <div id="w0" class="grid-view">
+                <div class="summary">第<b>1-4</b>条，共<b>4</b>条数据.</div>
+              </div>
+               <table class="table table-striped">
+                  <caption>条纹表格布局</caption>
+                  <thead>
+                    <tr>
+                      <th>名称</th>
+                      <th>城市</th>
+                      <th>密码</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>Tanmay</td>
+                    <td>Bangalore</td>
+                    <td>560001</td>
+                  </tr>
+                  <tr>
+                    <td>Sachin</td>
+                    <td>Mumbai</td>
+                    <td>400003</td>
+                  </tr>
+                  </tbody>
+              </table>
+            </div>
+          </section>
         </div>
       </div>
     </div>
-
-   
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!-- <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script> -->
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
