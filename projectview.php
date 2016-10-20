@@ -73,7 +73,7 @@
                   <div class="auth-item-view">
                       <!-- <h1>消息推送</h1> -->
                       <p>
-                          <a class="btn btn-primary" href="role/update?id=1">更新</a> 
+                          <a class="btn btn-primary" href="projectupdate.php?id=1">更新</a> 
                           <a class="btn btn-danger" href="role/delete?id=1" data-confirm="确认要删除吗?" data-method="post">删除</a> 
                           <!-- <a class="btn btn-success" href="/admin/role/create">新增</a>  -->
                       </p>

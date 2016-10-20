@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>添加项目</title>
+    <title>更新项目:消息推送</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -57,27 +57,27 @@
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">添加项目</h1>
+          <h1 class="page-header">更新项目:消息推送</h1>
           <div class="user-form">
-            <form role="form">
+            <form role="form" action="projectupdate.php">
                   <div class="form-group">
                     <label for="name">项目名称</label>
-                    <input type="text" class="form-control" id="name" placeholder="请输入名称">
+                    <input type="text" class="form-control" id="name" value="消息推送">
                   </div>
-                   <div class="form-group">
+                  <div class="form-group">
                     <label for="name">项目描述</label>
-                    <textarea class="form-control" rows="3"></textarea>
+                    <textarea class="form-control" rows="3">不错哦</textarea>
                   </div>
                   <div class="form-group">
                     <label for="name">路由</label>
-                    <input type="text" class="form-control" id="name" placeholder="请输入名称">
+                    <input type="text" class="form-control" id="name" value="">
                   </div>
                   <form role="form">
                     <div class="form-group" style="width:200px;">
                       <label for="name">角色设置</label>
                       <select class="form-control">
                          <option value="0">请选择</option>
-                         <option value="1">客服</option>
+                         <option value="1" selected="selected">客服</option>
                          <option value="2">产品</option>
                          <option value="3">运营</option>
                          <option value="4">开发</option>
