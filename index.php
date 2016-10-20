@@ -31,14 +31,16 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Help</a></li>
+            <li>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                  <span class="hidden-xs">abc</span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <!-- <li><a href="#">个人资料</a></li> -->
+                <li><a href="#">退出</a></li>
+              </ul>
+            </li>
           </ul>
-          <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
-          </form>
         </div>
       </div>
     </nav>
