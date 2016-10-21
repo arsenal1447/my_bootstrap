@@ -53,7 +53,7 @@
             <li><a href="rolelist.php">角色管理</a></li>
             <li><a href="routelist.php">路由管理</a></li>
             <li><a href="assignment.php">角色人员分配</a></li>
-            <li><a href="permissionlist.php">权限管理</a></li>
+            <li><a href="permissionlist.php">角色路由管理</a></li>
             <!-- <li><a href="#">用户管理</a></li> -->
           </ul>
           <!-- <ul class="nav nav-sidebar">
@@ -250,7 +250,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/docs.min.js"></script>
-    
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>项目详情</title>
+    <title>权限详情</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -48,32 +48,23 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="projectlist.php">项目管理</a></li>
+            <li><a href="projectlist.php">项目管理</a></li>
             <li><a href="rolelist.php">角色管理</a></li>
             <li><a href="routelist.php">路由管理</a></li>
             <li><a href="assignment.php">角色人员分配</a></li>
-            <li><a href="permissionlist.php">角色路由管理</a></li>
+            <li class="active"><a href="permissionlist.php">角色路由管理</a></li>
             <!-- <li><a href="#">用户管理</a></li> -->
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">消息推送</h1>
+          <h1 class="page-header">xxx权限</h1>
           <!-- <div class="panel panel-default"> -->
             <div class="content-wrapper">
-              <!-- <section class="content-header">
-                  <h1>消息推送</h1>
-                  <ul class="breadcrumb">
-                      <li><a href="/">首页</a></li>
-                      <li><a href="/admin">Admin</a></li>
-                      <li><a href="/admin/role/index">角色列表</a></li>
-                      <li class="active">管理员大人</li>
-                  </ul>
-              </section> -->
               <section class="content">
                   <div class="auth-item-view">
                       <!-- <h1>消息推送</h1> -->
                       <p>
-                          <a class="btn btn-primary" href="projectupdate.php?id=1">更新</a>
+                          <a class="btn btn-primary" href="permissionupdate.php?id=1">更新</a>
                           <a class="btn btn-danger" href="role/delete?id=1" data-confirm="确认要删除吗?" data-method="post">删除</a>
                           <!-- <a class="btn btn-success" href="/admin/role/create">新增</a>  -->
                       </p>
@@ -81,16 +72,12 @@
                           <div class="col-sm-11">
                               <table id="w0" class="table table-striped table-bordered detail-view">
                                   <tr>
-                                      <th style="width:25%">项目名称</th>
-                                      <td>消息推送</td>
+                                      <th style="width:25%">权限名称</th>
+                                      <td>xxx权限</td>
                                   </tr>
                                   <tr>
-                                      <th style="width:25%">角色管理</th>
-                                      <td><span class="not-set">(未设置)</span></td>
-                                  </tr>
-                                  <tr>
-                                      <th style="width:25%">项目描述</th>
-                                      <td>啥都行</td>
+                                      <th style="width:25%">权限描述</th>
+                                      <td>xxx权限可以查看</td>
                                   </tr>
                                   <!-- <tr>
                                       <th style="width:25%">数据</th>

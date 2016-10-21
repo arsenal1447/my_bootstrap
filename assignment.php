@@ -52,7 +52,7 @@
             <li><a href="rolelist.php">角色管理</a></li>
             <li><a href="routelist.php">路由管理</a></li>
             <li class="active"><a href="assignment.php">角色人员分配</a></li>
-            <li><a href="permissionlist.php">权限管理</a></li>
+            <li><a href="permissionlist.php">角色路由管理</a></li>
             <!-- <li><a href="#">用户管理</a></li> -->
           </ul>
         </div>
@@ -75,8 +75,8 @@
                  <!--  <td><span class="not-set">(未设置)</span></td>
                   <td>啥都行</td> -->
                   <td>
-                    <a href="assignmentview.php" title="查看" aria-label="查看" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a> 
-                   <!--  <a href="" title="更新" aria-label="更新" data-pjax="0"><span class="glyphicon glyphicon-pencil"></span></a> 
+                    <a href="assignmentview.php" title="查看" aria-label="查看" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a>
+                   <!--  <a href="" title="更新" aria-label="更新" data-pjax="0"><span class="glyphicon glyphicon-pencil"></span></a>
                     <a href="" title="删除" aria-label="删除" data-confirm="您确定要删除此项吗？" data-method="post" data-pjax="0"><span class="glyphicon glyphicon-trash"></span>
                     </a> -->
                   </td>
@@ -87,7 +87,7 @@
               <!--     <td><span class="not-set">(未设置)</span></td>
                   <td>拥有查看的权限</td> -->
                   <td>
-                    <a href="assignmentview.php" title="查看" aria-label="查看" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a> 
+                    <a href="assignmentview.php" title="查看" aria-label="查看" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a>
                   </td>
                 </tr>
               </tbody>

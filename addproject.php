@@ -52,7 +52,8 @@
             <li><a href="rolelist.php">角色管理</a></li>
             <li><a href="routelist.php">路由管理</a></li>
             <li><a href="assignment.php">角色人员分配</a></li>
-            <li><a href="permissionlist.php">权限管理</a></li>
+            <li><a href="permissionlist.php">角色路由管理</a></li>
+            <li><a href="menulist.php">菜单管理</a></li>
             <!-- <li><a href="#">用户管理</a></li> -->
           </ul>
         </div>
@@ -92,7 +93,7 @@
       </div>
     </div>
 
-   
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

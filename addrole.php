@@ -52,15 +52,15 @@
             <li class="active"><a href="rolelist.php">角色管理</a></li>
             <li><a href="routelist.php">路由管理</a></li>
             <li><a href="assignment.php">角色人员分配</a></li>
-            <li><a href="permissionlist.php">权限管理</a></li>
+            <li><a href="permissionlist.php">角色路由管理</a></li>
             <!-- <li><a href="#">用户管理</a></li> -->
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-        
+
           <h1 class="page-header">添加角色</h1>
           <div class="user-form">
-            <form role="form">
+            <form role="form" action="roleview.php">
                   <div class="form-group">
                     <label for="name">角色名称</label>
                     <input type="text" class="form-control" id="name" placeholder="请输入角色名称">

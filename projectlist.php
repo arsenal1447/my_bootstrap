@@ -52,7 +52,7 @@
             <li><a href="rolelist.php">角色管理</a></li>
             <li><a href="routelist.php">路由管理</a></li>
             <li><a href="assignment.php">角色人员分配</a></li>
-            <li><a href="permissionlist.php">权限管理</a></li>
+            <li><a href="permissionlist.php">角色路由管理</a></li>
             <!-- <li><a href="#">用户管理</a></li> -->
           </ul>
         </div>
@@ -91,7 +91,7 @@
                           </select>
                         </div>
                       </form>
-                    </span> 
+                    </span>
                   </td> -->
 
                   <td><span class="not-set">(未设置)</span></td>
@@ -100,17 +100,17 @@
                     <span class="not-set"><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">设置</button></span>
                   </td> -->
                   <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                  <!-- 
+                  <!--
                     <div class="modal-dialog modal-sm">
                       <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                             <h4 class="modal-title" id="myModalLabel">选择角色</h4>
-                        </div>                         
+                        </div>
                         <div class="modal-body">
-                          <input type="checkbox">客服 
-                          <input type="checkbox">产品 
-                          <input type="checkbox">运营 
+                          <input type="checkbox">客服
+                          <input type="checkbox">产品
+                          <input type="checkbox">运营
                           <form role="form">
                             <div class="form-group">
                               <select class="form-control">
@@ -134,8 +134,8 @@
                   <td>啥都行</td>
                   <td>/admin/index</td>
                   <td>
-                    <a href="projectview.php" title="查看" aria-label="查看" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a> 
-                    <a href="projectupdate.php?id=1" title="更新" aria-label="更新" data-pjax="0"><span class="glyphicon glyphicon-pencil"></span></a> 
+                    <a href="projectview.php" title="查看" aria-label="查看" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a>
+                    <a href="projectupdate.php?id=1" title="更新" aria-label="更新" data-pjax="0"><span class="glyphicon glyphicon-pencil"></span></a>
                     <!-- <a href="" title="删除" aria-label="删除" data-confirm="您确定要删除此项吗？" data-method="post" data-pjax="0"><span class="glyphicon glyphicon-trash"></span> -->
                     </a>
                   </td>
@@ -147,8 +147,8 @@
                   <td>拥有查看的权限</td>
                   <td>/admin/index</td>
                   <td>
-                    <a href="projectview.php" title="查看" aria-label="查看" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a> 
-                    <a href="projectupdate.php?id=1" title="更新" aria-label="更新" data-pjax="0"><span class="glyphicon glyphicon-pencil"></span></a> 
+                    <a href="projectview.php" title="查看" aria-label="查看" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a>
+                    <a href="projectupdate.php?id=1" title="更新" aria-label="更新" data-pjax="0"><span class="glyphicon glyphicon-pencil"></span></a>
                     <!-- <a href="" title="删除" aria-label="删除" data-confirm="您确定要删除此项吗？" data-method="post" data-pjax="0"><span class="glyphicon glyphicon-trash"></span> -->
                   </td>
                 </tr>

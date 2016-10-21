@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>更新项目:消息推送</title>
+    <title>菜单管理</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="index.php">Project name</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -48,57 +48,60 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="projectlist.php">项目管理</a></li>
+            <li><a href="projectlist.php">菜单管理</a></li>
             <li><a href="rolelist.php">角色管理</a></li>
             <li><a href="routelist.php">路由管理</a></li>
             <li><a href="assignment.php">角色人员分配</a></li>
             <li><a href="permissionlist.php">角色路由管理</a></li>
+            <li class="active"><a href="menulist.php">菜单管理</a></li>
             <!-- <li><a href="#">用户管理</a></li> -->
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">更新项目:消息推送</h1>
-          <div class="user-form">
-            <form role="form" action="projectupdate.php">
-                  <div class="form-group">
-                    <label for="name">项目名称</label>
-                    <input type="text" class="form-control" id="name" value="消息推送">
-                  </div>
-                  <div class="form-group">
-                    <label for="name">项目描述</label>
-                    <textarea class="form-control" rows="3">不错哦</textarea>
-                  </div>
-                  <div class="form-group">
-                    <label for="name">路由</label>
-                    <input type="text" class="form-control" id="name" value="">
-                  </div>
-                  <form role="form">
-                    <div class="form-group" style="width:200px;">
-                      <label for="name">角色设置</label>
-                      <select class="form-control">
-                         <option value="0">请选择</option>
-                         <option value="1" selected="selected">客服</option>
-                         <option value="2">产品</option>
-                         <option value="3">运营</option>
-                         <option value="4">开发</option>
-                      </select>
-                    </div>
-                  </form>
-                <button type="submit" class="btn btn-primary">提交 </button>
+          <h1 class="page-header">菜单管理</h1>
 
-            </form>
+          <p><a class="btn btn-primary" href="addmenu.php" role="button">添加菜单</a></p>
+
+          <div class="panel panel-default">
+            <!-- Table -->
+            <table class="table table-striped table-bordered">
+              <thead>
+              <tr>
+                <th>#</th>
+                <th>菜单名称</th>
+                <th>菜单描述</th>
+                <th>菜单路由</th>
+                <th class="action-column">&nbsp;</th>
+              </tr>
+              </thead>
+              <tbody>
+                <tr data-key="boss权限">
+                  <td>1</td>
+                  <td>用户管理</td>
+                  <td>啥都行</td>
+                  <td>/admin/index</td>
+                  <td>
+                    <a href="projectview.php" title="查看" aria-label="查看" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a>
+                    <a href="projectupdate.php?id=1" title="更新" aria-label="更新" data-pjax="0"><span class="glyphicon glyphicon-pencil"></span></a>
+                    <!-- <a href="" title="删除" aria-label="删除" data-confirm="您确定要删除此项吗？" data-method="post" data-pjax="0"><span class="glyphicon glyphicon-trash"></span> -->
+                    </a>
+                  </td>
+                </tr>
+                <tr data-key="查看权限">
+                  <td>2</td>
+                  <td>支付管理</td>
+                  <td>拥有查看的权限</td>
+                  <td>/admin/index</td>
+                  <td>
+                    <a href="projectview.php" title="查看" aria-label="查看" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a>
+                    <a href="projectupdate.php?id=1" title="更新" aria-label="更新" data-pjax="0"><span class="glyphicon glyphicon-pencil"></span></a>
+                    <!-- <a href="" title="删除" aria-label="删除" data-confirm="您确定要删除此项吗？" data-method="post" data-pjax="0"><span class="glyphicon glyphicon-trash"></span> -->
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-      </div>
-    </div>
-
-
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!-- <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script> -->
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
